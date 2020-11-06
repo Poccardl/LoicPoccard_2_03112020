@@ -11,18 +11,18 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header id="header_container" class="padding_t_52">
+    <header id="header_container">
         <!-- NAVIGATION -->
         <div id="element">
             <!-- Reservia logo -->
-            <img src="img/logo/Reservia.svg" alt="Reservia logo">
+            <img src="img/logo/Reservia.svg" alt="Reservia logo" id="logo">
         </div>
         <div id="element">
-            <!-- Menu -->
+            <!-- Menu navigation -->
             <nav>
                 <ul id="navigation">
-                    <li><a href="...">Hébergement</a></li>
-                    <li><a href="...">Activités</a></li>
+                    <li><a href="#hebergement_container">Hébergement</a></li>
+                    <li><a href="#activites_container">Activités</a></li>
                     <li><a href="...">S'inscrire</a></li>
                 </ul>
             </nav>
@@ -34,11 +34,18 @@
             <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
-        <div id="element">
-            <i class="fas fa-map-marker-alt"></i>
-            <input type="text">
-            <button>Rechercher</button>
+        <form id="searchbar_container">
+            <div id="element_1">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div id="element_2">
+                <input type="text" id="search" placeholder="Marseille, France">
+            </div>
+            <div id="element_3">
+                <button>Rechercher</button>
+            </div>
         </div>
+
     </div>
     <!-- FILTRES -->
     <div id="#container" class="filtres_container">
