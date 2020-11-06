@@ -134,8 +134,22 @@ a {
     padding: 16px 20px 0px 20px;
 }
 /* INFOS */
-.infos_container {
+#infos_container {
     display: flex;
+}
+#infos_container #element {
+    margin: 20px 5px 20px 5px;
+}
+#infos_container #element p {
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+}
+#infos_container #element i {
+    border-radius: 90%;
+    color: #0065FC;
+    border: solid;
+    border-color: #F2F2F2;
+    padding: 5px 10px 5px 10px;
 }
 /* _ */
 #_section {
