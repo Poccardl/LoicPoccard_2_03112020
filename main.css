@@ -70,16 +70,16 @@ a {
 #searchbar_container #element_1, #element_2, #element_3 {
     height: 50px;
 }
-#element_1 {
+#searchbar_container #element_1 {
     width: 50px;
     background-color: #F2F2F2;
     border-radius: 10px 0px 0px 10px;
 }
-#element_1 i {
+#searchbar_container #element_1 i {
     font-size: 20px;
     padding: 15px;
 }
-#element_3 button {
+#searchbar_container #element_3 button {
     background-color:  #0065FC;
     border: none;
     color: #FFFFFF;
@@ -89,7 +89,7 @@ a {
     font-size: 16px;
     border-radius: 0px 10px 10px 0px;
 }
-#element_2 input {
+#searchbar_container #element_2 input {
     font-size: 16px;
     color: #000000;
     height: 50px;
@@ -99,9 +99,39 @@ a {
     border-color:#F2F2F2 transparent #F2F2F2 transparent;
 }
 /* FILTRES */
-.filtres_container {
+#filtres_container {
     display: flex;
-
+}
+#filtres_container #element {
+    margin: 20px;
+}
+/* border-radius: 90%; */
+#filtres_container #element i {
+    border-radius: 90%;
+    color: #0065FC;
+    padding: 16px;
+    background-color: #DEEBFF;
+}
+#filtres_container #element p {
+    margin: 0px;
+}
+#filtres_container #element button {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: solid;
+    border-color: #F2F2F2;
+    border-radius: 90px;
+    padding: 0px;
+}
+#filter_button {
+    display: flex;
+    justify-content: space-between;
+}
+#filter_button p {
+    padding: 16px 20px 0px 20px;
 }
 /* INFOS */
 .infos_container {
