@@ -8,6 +8,9 @@ html {
     font-family: Relaway;
 }
 body {
+    margin: 0;
+}
+#main {
     margin-left: 54px;
     margin-right: 54px;
 }
@@ -270,5 +273,15 @@ footer {
     background-color: #F2F2F2;
 }
 footer #element {
-    width: 25%;
+    width: 40%;
+    padding: 2% 0 2% 0;
+}
+footer #element h2 {
+    padding-left: 40px;
+}
+#footer #element ul li {
+    padding: 5px 0px 5px 0px;
+}
+#footer #element ul li a {
+    color: #000000;
 }
