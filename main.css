@@ -260,11 +260,20 @@ a {
 #activites_container img {
     object-fit: cover;
 }
+#activites_container h4 {
+    padding-left: 10px;
+}
 .hight {
     height: 450px;
 }
+.intermediate {
+    height: 250px;
+}
+.mid {
+    height: 200px;
+}
 .small {
-    height: 180px;
+    height: 150px;
 }
 #small_card {
     background-color: #FFFFFF;
@@ -284,6 +293,12 @@ a {
     width: 100%;
     height: 75%;
     border-radius: 10px 10px 0px 0px;
+}
+.ml_0 {
+    margin-left: 0px!important;
+}
+.mr_0 {
+    margin-right: 0px!important;
 }
 /* FOOTER */
 footer {
