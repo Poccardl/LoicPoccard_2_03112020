@@ -111,7 +111,6 @@ a {
 #filtres_container #element {
     margin: 20px;
 }
-/* border-radius: 90%; */
 #filtres_container #element i {
     border-radius: 90%;
     color: #0065FC;
@@ -131,7 +130,11 @@ a {
     border-color: #F2F2F2;
     border-radius: 90px;
     padding: 0px;
+    transition-duration: 0.4s;
 }
+#filtres_container #element button:hover {
+    background-color: #DEEBFF;
+  }
 #filter_button {
     display: flex;
     justify-content: space-between;
