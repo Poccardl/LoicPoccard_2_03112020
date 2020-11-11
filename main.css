@@ -228,7 +228,7 @@ a {
     padding: 0px 30px 0px 30px;
 }
 #title_container div {
-    margin-right: 50px;
+    margin-right: 110px;
 }
 #title_container .icon {
     margin: 5 0 5 0;
@@ -260,8 +260,8 @@ a {
     padding-top: 25px;
 }
 /* ACTIVITÉS */
-.pt_30 {
-    padding-top: 30px;
+.mt_60 {
+    margin-top: 60px;
 }
 #activites_container {
     display: flex;
