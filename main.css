@@ -3,6 +3,10 @@
     font-family: Relaway;
     src: url(fonts/Raleway/static/Raleway-Medium.ttf);
 }
+@font-face {
+    font-family: Relaway-Bold;
+    src: url(fonts/Raleway/static/Raleway-Bold.ttf);
+}
 /* Général */
 html {
     font-family: Relaway;
@@ -14,10 +18,15 @@ body {
     margin-left: 54px;
     margin-right: 54px;
 }
+.bold {
+    font-family: Relaway-Bold;
+}
 h2 {
+    font-family: Relaway-Bold;
     margin: 5 0 5 0;
 }
 h4 {
+    font-family: Relaway-Bold;
     margin: 10px 0 10px 0px;
 }
 p {
@@ -125,6 +134,7 @@ a {
     background-color: #DEEBFF;
 }
 #filtres_container #element p {
+    font-family: Relaway-Bold;
     margin: 0px;
 }
 #filtres_container #element button {
@@ -183,7 +193,7 @@ a {
 }
 #card {
     background-color: #FFFFFF;
-    padding: 11 5 11 5;
+    padding: 5px;
     margin: 30px;
 }
 /* HÉBERGEMENT */
@@ -250,6 +260,9 @@ a {
     padding-top: 25px;
 }
 /* ACTIVITÉS */
+.pt_30 {
+    padding-top: 30px;
+}
 #activites_container {
     display: flex;
     flex-wrap: nowrap;
@@ -321,8 +334,9 @@ footer #element {
     width: 40%;
     padding: 2% 0 2% 0;
 }
-footer #element h2 {
+footer #element h4 {
     padding-left: 40px;
+    
 }
 #footer #element ul li {
     padding: 5px 0px 5px 0px;
