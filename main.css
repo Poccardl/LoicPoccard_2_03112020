@@ -58,8 +58,15 @@ a {
 #navigation li a {
     line-height: 1em ;
     text-align: center ;
-    margin: 0 0;
-    padding: 0 0 ;
+    margin: 0;
+    padding: 36px 0px 0px 0px;
+}
+#navigation li a:hover {
+    color: #0065FC;
+    border-top: solid #0065FC;
+}
+.blue_link {
+    color: #0065FC;
 }
 /* RECHERCHE*/
 #recherche_container {
