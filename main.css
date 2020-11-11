@@ -40,7 +40,7 @@ p {
     background-color: #F2F2F2;
     border-radius: 20px;
 }
-#card, #small_card {
+.card, .small_card {
     box-shadow: 0px 0px 10px #8F8F8F;
 }
 /* NAVIGATION */
@@ -83,7 +83,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
 }
-#recherche_container #element, #element_1, #element_2, #element_3 {
+#recherche_container .element, #element_1, #element_2, #element_3 {
     margin: 10 0 10 0;
 }
 #searchbar_container {
@@ -124,20 +124,20 @@ a {
 #filtres_container {
     display: flex;
 }
-#filtres_container #element {
+#filtres_container .element {
     margin: 20px;
 }
-#filtres_container #element i {
+#filtres_container .element i {
     border-radius: 90%;
     color: #0065FC;
     padding: 16px;
     background-color: #DEEBFF;
 }
-#filtres_container #element p {
+#filtres_container .element p {
     font-family: Relaway-Bold;
     margin: 0px;
 }
-#filtres_container #element button {
+#filtres_container .element button {
     background-color: #FFFFFF;
     color: #000000;
     text-align: center;
@@ -149,28 +149,28 @@ a {
     padding: 0px;
     transition-duration: 0.4s;
 }
-#filtres_container #element button:hover {
+#filtres_container .element button:hover {
     background-color: #DEEBFF;
   }
-#filter_button {
+.filter_button {
     display: flex;
     justify-content: space-between;
 }
-#filter_button p {
+.filter_button p {
     padding: 16px 20px 0px 20px;
 }
 /* INFOS */
 #infos_container {
     display: flex;
 }
-#infos_container #element {
+#infos_container .element {
     margin: 20px 5px 20px 5px;
 }
-#infos_container #element p {
+#infos_container .element p {
     margin: 0;
     padding: 10px 10px 5px 10px;
 }
-#infos_container #element i {
+#infos_container .element i {
     border-radius: 90%;
     color: #0065FC;
     border: solid;
@@ -185,13 +185,13 @@ a {
 .grey_star {
     color: #F2F2F2!important;
 }
-#card section i {
+.card section i {
     color: #0065FC;
 }
 .stars {
     font-size: 12px;
 }
-#card {
+.card {
     background-color: #FFFFFF;
     padding: 5px;
     margin: 30px;
@@ -203,15 +203,15 @@ a {
     flex-wrap: wrap;
     width: 65%;
 }
-#hebergement_container #element {
+#hebergement_container .element {
     width: 100%;
     padding: 0px 30px 0px 30px;
 }
-#hebergement_container #card {
+#hebergement_container .card {
     width: 25%;
     border-radius: 10px 10px 10px 10px;
 }
-#hebergement_container #card img {
+#hebergement_container .card img {
     width: 100%;
     border-radius: 10px 10px 0px 0px;
     height: 115px;
@@ -237,17 +237,17 @@ a {
 #title_container .icon i {
     margin-top: 33.33%;
 }
-#plus_populaires_container #element {
+#plus_populaires_container .element {
     width: 100%;
 }
-#plus_populaires_container #card {
+#plus_populaires_container .card {
     border-radius: 10px 10px 10px 10px;
 }
-#plus_populaires_container #card a {
+#plus_populaires_container .card a {
     display: flex;
     width: 100%;
 }
-#plus_populaires_container #card img {
+#plus_populaires_container .card img {
     width: 100%;
     border-radius: 10px 0px 0px 10px;
     height: 130px;
@@ -263,27 +263,27 @@ a {
 .mt_60 {
     margin-top: 60px;
 }
-#activites_container {
+.activites_container {
     display: flex;
     flex-wrap: nowrap;
 }
-#activites_container #element {
+.activites_container .element {
     width: 100%;
 }
-#activites_container #card {
+.activites_container .card {
     width: 25%;
     padding: 0;
     border-radius: 10px 10px 10px 10px;
 }
-#activites_container #card img {
+.activites_container .card img {
     width: 100%;
     height: 90%;
     border-radius: 10px 10px 0px 0px;
 }
-#activites_container img {
+.activites_container img {
     object-fit: cover;
 }
-#activites_container h4 {
+.activites_container h4 {
     padding-left: 10px;
 }
 .hight {
@@ -298,13 +298,13 @@ a {
 .small {
     height: 150px;
 }
-#small_card {
+.small_card {
     background-color: #FFFFFF;
     width: 100%;
     padding: 0;
     border-radius: 10px 10px 10px 10px;
 }
-#double_card {
+.double_card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -312,7 +312,7 @@ a {
     padding: 0;
     margin: 30px;
 }
-#double_card #small_card img {
+.double_card .small_card img {
     width: 100%;
     height: 75%;
     border-radius: 10px 10px 0px 0px;
@@ -330,15 +330,15 @@ footer {
     flex-wrap: nowrap;
     background-color: #F2F2F2;
 }
-footer #element {
+footer .element {
     width: 40%;
     padding: 2% 0 2% 0;
 }
-footer #element h4 {
+footer .element h4 {
     padding-left: 40px;
     
 }
-#footer #element ul li {
+#footer .element ul li {
     padding: 5px 0px 5px 0px;
 }
 a {
