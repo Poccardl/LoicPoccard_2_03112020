@@ -77,7 +77,7 @@ a {
 .blue_link {
     color: #0065FC;
 }
-/* RECHERCHE*/
+/* RECHERCHE */
 #recherche_container {
     display: flex;
     flex-direction: column;
@@ -227,9 +227,6 @@ a {
     display: flex;
     padding: 0px 30px 0px 30px;
 }
-#title_container div {
-    margin-right: 110px;
-}
 #title_container .icon {
     margin: 5 0 5 0;
     font-size: 20px;
@@ -342,4 +339,79 @@ footer .element h4 {
 }
 a {
     color: #000000;
+}
+/* Media Queries */
+@media (max-width: 575.98px) {
+    /* @font */
+    /* Général */
+    .light_grey_bg {
+        border-radius: 0;
+    }
+    .small_d_none {
+        display: none;
+    }
+    #main {
+        margin: 10px;
+    }
+    /* HEADER */
+    #header_container {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    #header_container .element {
+        width: 50%;
+    }
+    .w_100 {
+        width: 100%!important;
+    }
+    /* NAVIGATION */
+    /* RECHERCHE */
+    /* FILTRES */
+    #filtres_container {
+        flex-wrap: wrap;
+    }
+    #filtres_container .w_100 {
+        width: 100%;
+    }
+    /* INFOS */
+    /* _ */
+    #hebergement_section {
+        flex-direction: column-reverse;
+    }
+    #hebergement_section .card {
+        width: 100%;
+    }
+    /* HÉBERGEMENT */
+    #hebergement_container {
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    #hebergement_section .card {
+        width: 100%;
+    }
+    /* LES PLUS POPULAIRES */
+    #plus_populaires_container {
+        width: 100%;
+    }
+    /* ACTIVITÉS */
+    .activites_container {
+        flex-direction: column;
+    }
+    .activites_container .card, .double_card, .small_card{
+        width: 100%;
+    }
+    /* FOOTER */
+    #footer {
+        flex-direction: column;
+    }
+    footer .element {
+        width: 100%;
+    }
+}
+@media (max-width: 767.98px) {}
+@media (max-width: 991.98px) {}
+@media (min-width: 1199.98px) {
+    .d_none {
+        display: none;
+    }
 }
