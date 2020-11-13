@@ -384,6 +384,9 @@ a {
         border-bottom: solid #0065FC;
     }
     /* RECHERCHE */
+    #recherche_container {
+        text-align: center;
+    }
     /* FILTRES */
     #filtres_container {
         flex-wrap: wrap;
