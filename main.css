@@ -234,6 +234,7 @@ a {
 }
 #plus_populaires_container .element {
     width: 100%;
+    height: 130px;
 }
 #plus_populaires_container .card {
     border-radius: 10px 10px 10px 10px;
@@ -252,7 +253,7 @@ a {
     padding: 0px 10px 0px 10px;
 }
 #plus_populaires_container .stars {
-    padding-top: 25px;
+    padding-top: 15px;
 }
 /* ACTIVITÉS */
 .mt_60 {
@@ -395,6 +396,9 @@ a {
         width: 100%;
     }
     /* INFOS */
+    #infos_container .element p {
+        padding: 0px 0px 0px 10px;
+    }
     /* _ */
     #hebergement_section {
         flex-direction: column-reverse;
