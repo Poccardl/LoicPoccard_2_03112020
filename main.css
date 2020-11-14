@@ -30,7 +30,7 @@ h4 {
     margin: 10px 0 10px 0px;
 }
 p {
-    margin: 5 0 5 0;
+    margin: 5px 0px 5px 0px;
 }
 .padding_tb_30 {
     padding-top: 30px;
@@ -70,6 +70,9 @@ a {
     margin: 0;
     padding: 36px 0px 0px 0px;
 }
+#navigation li a:hover {
+    color: #0065FC;
+}
 .blue_link {
     color: #0065FC;
 }
@@ -84,6 +87,7 @@ a {
 }
 #searchbar_container {
     display: flex;
+    margin-top: 20px;
 }
 #searchbar_container #element_3 {
     height: 50px;
@@ -363,9 +367,9 @@ a {
     #navigation li {
         width: 50%;
         text-align: center;
+        margin: 0px;
     }
     #navigation li:hover {
-        color: #0065FC;
         border-bottom: solid #0065FC;
     }
     /* RECHERCHE */
@@ -454,7 +458,6 @@ a {
 }
 @media (min-width: 767.98px) {
     #navigation li a:hover {
-        color: #0065FC;
         border-top: solid #0065FC;
     }
 }
