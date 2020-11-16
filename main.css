@@ -329,6 +329,10 @@ a {
 }
 /* Media Queries */
 @media (max-width: 628px) {
+    /* @font */
+    html {
+        font-size: 14px;
+    }
     #plus_populaires_container .stars {
          padding-top: 0px;
      }
