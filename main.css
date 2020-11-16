@@ -374,10 +374,11 @@ a {
     #navigation li {
         width: 50%;
         text-align: center;
-        margin: 0px;
+        padding: 0px;
     }
     #navigation li {
-        border-bottom: solid #FFFFFF;
+        border-bottom: solid #F2F2F2;
+        padding-bottom: 10px;
     }
     #navigation li:hover {
         border-bottom: solid #0065FC;
@@ -411,7 +412,7 @@ a {
     }
     /* INFOS */
     #infos_container .element p {
-        padding: 0px 0px 0px 10px;
+        padding: 5px 0px 0px 10px;
     }
     /* _ */
     /* HÉBERGEMENT */
@@ -441,6 +442,9 @@ a {
     }
     #navigation li:hover {
         border-top: solid #0065FC;
+    }
+    .activites_container .element {
+        padding: 0px 30px 0px 30px;
     }
 }
 @media (max-width:768px) {
@@ -591,9 +595,6 @@ a {
     }
 }
 @media (min-width: 993px) and (max-width: 1402px) {
-    h4 {
-        margin: 0px;
-    }
     #hebergement_section {
         flex-wrap: wrap;
     }
@@ -611,6 +612,9 @@ a {
     }
     #plus_populaires_container .card img {
         border-radius: 10px 10px 0px 0px;
+    }
+    .activites_container h4 {
+        margin: 0px;
     }
 }
 @media (max-width: 1402px){
