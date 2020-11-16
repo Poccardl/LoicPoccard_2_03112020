@@ -56,7 +56,10 @@ nav {
 }
 nav li {
     display: inline-block;
-    margin: 25px;
+    padding: 40px 25px 25px 25px;
+}
+ul {
+    margin-top: 0px;
 }
 li {
     list-style: none;
@@ -67,8 +70,7 @@ a {
 #navigation li a {
     line-height: 1em ;
     text-align: center ;
-    margin: 0;
-    padding: 36px 0px 0px 0px;
+    margin: 38px 0px 0px 0px;
 }
 #navigation li a:hover {
     color: #0065FC;
@@ -374,6 +376,9 @@ a {
         text-align: center;
         margin: 0px;
     }
+    #navigation li {
+        border-bottom: solid #FFFFFF;
+    }
     #navigation li:hover {
         border-bottom: solid #0065FC;
     }
@@ -430,6 +435,12 @@ a {
     /* Général */
     .d_none {
         display: none;
+    }
+    #navigation li {
+        border-top: solid #FFFFFF;
+    }
+    #navigation li:hover {
+        border-top: solid #0065FC;
     }
 }
 @media (max-width:768px) {
@@ -526,9 +537,6 @@ a {
     /* Général */
     /* HEADER */
     /* NAVIGATION */
-    #navigation li a:hover {
-        border-top: solid #0065FC;
-    }
     #header_container #navigation {
         width: 100%;
     }
