@@ -333,7 +333,7 @@ footer .element h4 {
 /* LES PLUS POPULAIRES */
 /* ACTIVITÉS */
 /* FOOTER */
-@media (max-width: 629px) {
+@media (max-width: 628px) {
     /* GÉNÉRAL */
 	.small_d_none {
 		display: none;
