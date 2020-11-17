@@ -1,5 +1,9 @@
 /* @font */
 @font-face {
+    font-family: Relaway;
+    src: url(fonts/Raleway/static/Raleway-Medium.ttf);
+}
+@font-face {
 	font-family: Relaway-Bold;
 	src: url(fonts/Raleway/static/Raleway-Bold.ttf);
 }
@@ -26,7 +30,8 @@ p {
 	margin: 5px 0px 5px 0px;
 }
 a {
-	text-decoration: none;
+    text-decoration: none;
+	color: #000000;
 }
 .light_grey_bg {
 	border-radius: 20px;
