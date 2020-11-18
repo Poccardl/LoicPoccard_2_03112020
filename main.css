@@ -404,7 +404,10 @@ footer .element h4 {
     }
 	.filtres_container .w_100 {
         width: 100%;
-    }
+	}
+	.filtres_container .element button {
+		font-size: 14px;
+	}
     /* INFOS */
 	.infos_container .element p {
 		padding: 5px 0px 0px 10px;
