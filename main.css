@@ -19,7 +19,7 @@ body {
 	margin-left: 54px;
 }
 h2 {
-	margin: 5 0 5 0;
+	margin: 5px 0px 5px 0px;
 	font-family: Relaway-Bold;
 }
 h4 {
@@ -87,7 +87,7 @@ li {
 	justify-content: flex-start;
 }
 .recherche_container .element, .element_1, .element_2, .element_3 {
-	margin: 10 0 10 0;
+	margin: 10px 0px 10px 0px;
 }
 .searchbar_container {
 	display: flex;
@@ -245,7 +245,7 @@ li {
 	width: 100%;
 }
 .title_container .icon {
-	margin: 5 0 5 0;
+	margin: 5px 0px 5px 0px;
 	font-size: 20px;
 }
 .title_container .icon i {
